@@ -1,13 +1,12 @@
-#berkshire-brand{
-  height: auto;
-  width: 400px;
-  margin: 0px;
+.navbar-brand{
+  width:400px;
+  display: inline-block;
+  margin-right: 0px;
 }
 
 #navbar{
   width: 100%;
   position: fixed;
-  background-color: rgba(237,237,237,0.85)!important;
   z-index: 1;
 }
 
@@ -19,17 +18,25 @@
 
 #navbarText{
   justify-content: right;
-  height: 100px;
 }
 
 .navbar-nav{
   min-width: 400px;
-  margin: 0px;
 }
 
 .nav-item{
+  margin-left: 20px;
+  margin-right: 20px;
   padding-top, padding-bottom: 0px;
-  margin-left, margin-right: 10px;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.nav-item:hover{
+  background-color: rgba(212, 212, 212, 0.85);
 }
 
 .dropdown{
@@ -43,10 +50,30 @@
 }
 
 .buttonContent{
-  font-style: normal;
-  color: #545454;
+  font-family: times;
+  font-size: 18px;
+  font-weight: bold;
   margin: 0;
+  color: #2e3192;
+  text-decoration: none;
 }
+
+.buttonContent:hover{
+  color: #2e3192;
+}
+
+span {
+  display: block;
+  position: relative;
+  width:calc(100% - 23px);
+  height:4px;
+  background:#2e3192;
+  position:absolute;
+  left:10px;
+  bottom:-10px;
+}
+
+
 
 .fadeIn{
   opacity: 0;
@@ -70,9 +97,10 @@
   margin: 3px 0;
 }
 
-.fadeIn{
-  opacity: 0;
-}
+
+
+
+
 
 img.wp-smiley,
 img.emoji {
