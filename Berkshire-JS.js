@@ -1,5 +1,11 @@
 $(() => {
 
+// Fade in elements
+
+$(document).ready(function(){
+  	$('#home').fadeIn('slow');
+  });
+
  // Fade with scrolling
 
  $(window).scroll(function () {
