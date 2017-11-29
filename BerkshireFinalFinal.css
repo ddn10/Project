@@ -1,12 +1,16 @@
 .navbar-brand{
   width:400px;
   display: inline-block;
-  margin-right: 0px;
+  margin-right: 0px!important;
 }
 
 #navbar{
   width: 100%;
   position: fixed;
+  z-index: 1;
+}
+
+.navbar-toggler{
   z-index: 1;
 }
 
@@ -58,7 +62,6 @@
   transition: color 0.1s, background-color 0.1s,padding 0.2s ease-in;
 }
 
-
 .buttonContent:hover{
   color: #2e3192;
 }
@@ -71,7 +74,6 @@
     text-decoration: none;
     transition: color 0.1s, background-color 0.1s;
 }
-
 
 .buttonContent::before {
     content: '';
@@ -106,8 +108,6 @@ span {
   left:10px;
   bottom:-10px;
 }
-
-
 
 .fadeIn{
   opacity: 0;
