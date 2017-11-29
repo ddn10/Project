@@ -246,3 +246,20 @@ img.emoji {
 #shareholder{
   position: relative;
 }
+
+.custom-file-control:lang(en)::before {
+  content: "Browse";
+}
+
+.custom-file-control:lang(en)::after {
+content: "Choose file...";
+}
+
+#confirmation-message {
+display: none;
+}
+
+
+.btn {
+width: 125px;
+}
