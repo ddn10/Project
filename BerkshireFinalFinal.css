@@ -242,3 +242,7 @@ img.emoji {
 	width: 50px;
 	text-align: center;
 }
+
+#shareholder{
+  position: relative;
+}
