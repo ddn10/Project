@@ -1,0 +1,145 @@
+.navbar-brand{
+  width:400px;
+  display: inline-block;
+  margin-right: 0px;
+}
+
+#navbar{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#logo{
+  height: 10%;
+  width: 90%;
+  min-width: 225px;
+}
+
+#navbarText{
+  justify-content: right;
+}
+
+.navbar-nav{
+  min-width: 400px;
+}
+
+.nav-item{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top, padding-bottom: 0px;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.nav-item:hover{
+  background-color: rgba(212, 212, 212, 0.85);
+}
+
+.dropdown{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top, padding-bottom: 0px;
+}
+
+.dropdown-toggle{
+  color: #545454;
+}
+
+.buttonContent{
+  font-family: times;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: #2e3192;
+  text-decoration: none;
+}
+
+.buttonContent:hover{
+  color: #2e3192;
+}
+
+span {
+  display: block;
+  position: relative;
+  width:calc(100% - 23px);
+  height:4px;
+  background:#2e3192;
+  position:absolute;
+  left:10px;
+  bottom:-10px;
+}
+
+
+
+.fadeIn{
+  opacity: 0;
+}
+
+.dropdown-menu{
+  background-color: rgba(237,237,237,0.85);
+}
+
+#mainNav{
+  padding: 11px;
+  border: 0;
+  background-color: rgba(168,168,168,0.85);
+  cursor: pointer;
+}
+
+#bar1, #bar2, #bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: #f2f2f2;
+  margin: 3px 0;
+}
+
+
+
+
+
+
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+[data-icon]:before {
+    content: none
+}
+
+.ui-dialog {
+    position: fixed;
+    top: 100px;
+}
+
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.rm {
+    border: 50px solid transparent;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.vc_custom_1491206972625 {
+    background-color: #ffffff !important;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
