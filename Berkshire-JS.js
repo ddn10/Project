@@ -6,6 +6,19 @@ $(document).ready(function(){
   	$('#home').fadeIn('slow');
   });
 
+  // Activate Carousel
+  $("#carouselhome").carousel();
+
+  // Enable Carousel Indicators
+  $(".item").click(function(){
+      $("#carouselhome").carousel(1);
+  });
+
+  // Enable Carousel Controls
+  $(".left").click(function(){
+      $("#carouselhome").carousel("prev");
+  });
+
  // Fade with scrolling
 
  $(window).scroll(function () {
@@ -38,28 +51,6 @@ $("#logo").click(function () {
 $("#navHome").click(function () {
     $('html,body').animate({
         scrollTop: $("#home").offset().top},'slow');
-});
-
-$("#navNews").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#news").offset().top},'slow');
-});
-
-$("#navShareholder").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#shareholder").offset().top},'slow');
-});
-
-$("#navBerkshire").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#berkshire").offset().top},'slow');
-});
-
-$("#navWarren").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#warren").offset().top},'slow');
-});
-
 
 
 
@@ -68,6 +59,7 @@ $("#menuItem").click(function () {
     $('html,body').animate({
         scrollTop: $("#topDiv").offset().top},'slow');
 });
+
 
 
 
