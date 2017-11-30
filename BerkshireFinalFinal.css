@@ -138,90 +138,67 @@
   width: 100%;
   display: table;
   align-items: center;
+  padding-top: 100px;
 }
 
 #home{
   display: table-cell;
-  vertical-align: middle;
+
 }
 
 #table-cell{
-  height: 400px;
+  height: 300px;
   width: 100%;
   padding: 20px;
   overflow: hidden;
+  text-align: center;
 }
 
 img{
   width: 100%;
+  position: relative;
 }
 
 .jumbotron{
   position: absolute;
 }
 
-#centertext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    text-align: center;
+
+#centertext{
+  top: 200px;
+  left: 0;
+  position:absolute;
+  text-align:center;
+  width: 100%
+}
+
+#text-frame{
+  background-color: rgba(237,237,237,0.5);
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
 }
 
 h1{
   font-family: 'Times New Roman'!important;
-  font-size: 40px!important;
+  font-size: 30px!important;
   font-weight: bold!important;
   color: #fff!important;
+  display: inline!important;
 }
 
 h2{
   font-family: 'Times New Roman'!important;
-  font-size: 25px!important;
+  font-size: 20px!important;
   font-weight: bold!important;
   color: #fff!important;
+  display: inline!important;
 }
 
-
-img.wp-smiley,
-img.emoji {
-    display: inline !important;
-    border: none !important;
-    box-shadow: none !important;
-    height: 1em !important;
-    width: 1em !important;
-    margin: 0 .07em !important;
-    vertical-align: -0.1em !important;
-    background: none !important;
-    padding: 0 !important;
-}
-
-[data-icon]:before {
-    content: none
-}
-
-.ui-dialog {
-    position: fixed;
-    top: 100px;
-}
-
-.recentcomments a {
-    display: inline !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.rm {
-    border: 50px solid transparent;
-    background-color: transparent;
-    border-bottom: none;
-}
-
-.vc_custom_1491206972625 {
-    background-color: #ffffff !important;
-}
-
-.wpb_animate_when_almost_visible {
-    opacity: 1;
+#footer{
+  width: 100%;
+  vertical-align: bottom;
+  height: 100px;
+  color: #2e3192;
+  z-index: 1;
 }
