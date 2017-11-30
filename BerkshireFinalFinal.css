@@ -9,6 +9,9 @@
   position: fixed;
   z-index: 1;
   background-color: #fff;
+  box-shadow: 5px 5px 5px #999; 
+     -moz-box-shadow: 2px 2px 2px #999;
+     -webkit-box-shadow: 2px 2px 2px #999;
 }
 
 .navbar-toggler{
@@ -97,17 +100,6 @@
 .buttonContent:hover::before, .buttonContent:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
-}
-
-#bar {
-  display: block;
-  position: relative;
-  width:calc(100% - 23px);
-  height:2px;
-  background:#2e3192;
-  position:absolute;
-  left:10px;
-  bottom:-10px;
 }
 
 .fadeIn{
