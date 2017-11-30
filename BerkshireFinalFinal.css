@@ -165,7 +165,7 @@ img{
 
 
 #centertext{
-  top: 200px;
+  top: 250px;
   left: 0;
   position:absolute;
   text-align:center;
@@ -175,7 +175,7 @@ img{
 #text-frame{
   background-color: rgba(237,237,237,0.5);
   border-radius: 5px;
-  padding: 5px;
+  padding: 15px;
   display: inline-block;
 }
 
